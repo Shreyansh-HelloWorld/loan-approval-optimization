@@ -63,7 +63,7 @@ loan-policy-optimization/
 │   └── decision_agreement_analysis.png
 │
 └── reports/
-    └── Final_Report.pdf              # 3-page analysis report
+    └── Final_Report.pdf             
 ```
 
 **Note**: Raw data (`.csv.gz`), trained model weights (`.pt`, `.pkl`), and processed data files are not included due to file size. The `requirements.txt` enables full reproduction.
