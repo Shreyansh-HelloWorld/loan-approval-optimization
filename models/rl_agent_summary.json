@@ -1,0 +1,28 @@
+{
+  "model_type": "Reinforcement Learning - Gradient Boosting Policy",
+  "n_estimators": 200,
+  "training_time_seconds": 204.0923891067505,
+  "test_performance": {
+    "total_reward": 527308214.10249996,
+    "avg_reward_per_loan": 5021.982991452381,
+    "median_reward_per_loan": 3597.6000000000004,
+    "approval_rate_pct": 80.87714285714286
+  },
+  "approved_loans": {
+    "count": 84921,
+    "paid_count": 71054,
+    "default_count": 13867,
+    "total_profit": 527308214.10249996,
+    "avg_reward": 6209.397135013718
+  },
+  "comparison_vs_baselines": {
+    "vs_approve_all_improvement_pct": 3.307333614435315,
+    "vs_random_improvement_pct": 107.83200858119979,
+    "vs_dl_model_additional_reward": 53.56220911904711,
+    "vs_dl_model_improvement_pct": 1.0780529964270165
+  },
+  "decision_agreement": {
+    "with_dl_model_pct": 82.99714285714286,
+    "disagreement_count": 17853
+  }
+}

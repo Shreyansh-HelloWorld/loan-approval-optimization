@@ -1,0 +1,23 @@
+{
+  "model_type": "Deep Learning - Neural Network",
+  "architecture": "21 -> 128 -> 64 -> 32 -> 1",
+  "total_parameters": 13633,
+  "training_time_minutes": 3.4,
+  "epochs_trained": 30,
+  "best_val_auc": 0.7169,
+  "test_metrics": {
+    "auc_roc": 0.7175,
+    "f1_score": 0.108,
+    "accuracy": 0.7893,
+    "precision": 0.5972,
+    "recall": 0.0594
+  },
+  "confusion_matrix": {
+    "true_negatives": 81538,
+    "false_positives": 903,
+    "false_negatives": 21220,
+    "true_positives": 1339
+  },
+  "optimal_threshold": 0.1996999979019165,
+  "device_used": "mps"
+}
